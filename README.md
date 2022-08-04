@@ -1,4 +1,4 @@
-									Create Web Project
+									<p align="center">Create Web Project</p>
 									==================
 
 Configuration(Tomcat to Maven):-
