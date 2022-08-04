@@ -1,4 +1,4 @@
-									<h1 align="center" style="margin-top: 0px;">Create Web Project</h1>
+									Create Web Project
 									==================
 
 Configuration(Tomcat to Maven):-
