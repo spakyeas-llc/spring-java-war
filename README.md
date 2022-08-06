@@ -1,7 +1,7 @@
 									Create Web Project
 									==================
 
-Configuration(Tomcat to Maven):-
+# Configuration(Tomcat to Maven):-
 --------------------------------
 sudo su
 apt update
@@ -11,14 +11,14 @@ sudo apt install -y tomcat8 tomcat8-admin
 ls /usr/lib/jvm/java-11-openjdk-amd64
 ls /usr/share/maven
 
-Setting Path in Ubuntu16.04:-
------------------------------
+# Setting Path in Ubuntu16.04/18.04/20.04/21.04/22.04:-
+# ----------------------------------------------------
 nano /home/ubuntu/.bashrc
-##Start: Java,Maven,Tomcat Path Settings
+## Start: Java,Maven,Tomcat Path Settings
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export MAVEN_PATH=/usr/share/maven
 export PATH=${PATH}:${JAVA_HOME}/bin
-##End: Java,Maven,Tomcat Path Settings
+## End: Java,Maven,Tomcat Path Settings
 	
 source /home/ubuntu/.bashrc
 
